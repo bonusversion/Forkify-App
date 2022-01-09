@@ -14,9 +14,6 @@ import resultsView from './views/resultsView.js';
 import bookmarksView from './views/bookmarksView.js';
 
 // https://forkify-api.herokuapp.com/v2
-if (module.hot) {
-  module.hot.accept();
-}
 
 const controlRecipes = async function () {
   try {
@@ -73,7 +70,7 @@ const controlServings = function (newServings) {
   // Update the recipe servings (in state)
   model.updateServings(newServings);
   // Update the recipe view
-  // recipeView.render(model.state.recipe);
+
   recipeView.update(model.state.recipe);
 };
 
