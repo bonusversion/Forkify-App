@@ -1,6 +1,3 @@
-import { func } from 'assert-plus';
-import { trim } from 'lodash';
-import { recip } from 'prelude-ls';
 import { API_URL, RES_PER_PAGE, KEY } from './config.js';
 // import { getJSON, sendJSON } from './helpers.js';
 import { AJAX } from './helpers.js';
