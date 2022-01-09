@@ -9,7 +9,6 @@ class RecipeView extends View {
   _message = '';
 
   _generateMarkup() {
-    console.log('this._data.bookmarked', this._data.bookmarked);
     return `
     <figure class="recipe__fig">
           <img src="${this._data.image}" alt="${

@@ -137,7 +137,7 @@ export const uploadRecipe = async function (newRecipe) {
           description,
         };
       });
-    console.log(ingredients);
+
     let recipe = {
       title: newRecipe.title,
       publisher: newRecipe.publisher,
